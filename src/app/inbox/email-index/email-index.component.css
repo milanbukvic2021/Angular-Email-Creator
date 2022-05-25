@@ -1,0 +1,48 @@
+/* .item a {
+  color: black;
+} */
+.item a {
+  color: red;
+}
+
+/* a.active {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+} */
+a.active {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* a.active:before {
+  content: '>';
+  font-size: 20px;
+  margin-right: 10px;
+} */
+a.active:before {
+  content: '>>>';
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+/* .content {
+  width: 90%;
+} */
+.content {
+  width: 90%;
+}
+
+/* .trim {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+} */
+.trim {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100;
+}
